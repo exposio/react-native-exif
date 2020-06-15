@@ -38,7 +38,8 @@ public class Exif extends ReactContextBaseJavaModule  {
         ExifInterface.TAG_SUBSEC_TIME,
         ExifInterface.TAG_SUBSEC_TIME_DIG,
         ExifInterface.TAG_SUBSEC_TIME_ORIG,
-        ExifInterface.TAG_WHITE_BALANCE
+        ExifInterface.TAG_WHITE_BALANCE,
+        ExifInterface.TAG_USER_COMMENT
     };
 
     public Exif(ReactApplicationContext reactContext) {
